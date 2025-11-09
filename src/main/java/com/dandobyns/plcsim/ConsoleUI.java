@@ -56,8 +56,8 @@ public class ConsoleUI {
         7) Force Tag Value  (also logs to DB)
         8) Step Scan Once
         9) Read Sample SQL (plc_samples) → list 10
-        A) Lookup Sample by UID (plc_samples)
-        ---
+        -------------------------------
+        A) Lookup Sample by UID (plc_samples)      
         B) DB: Ensure schema
         S) DB: Save ALL tags to DB (upsert)
         L) DB: Load tags from DB (add if missing)
