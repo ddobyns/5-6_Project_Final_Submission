@@ -1,7 +1,7 @@
 /*******************************************************************
  * Name: Dan Dobyns
  * Date: 11/9/2025
- * Assignment: SDC330 Week 3 – Course Project
+ * Assignment: SDC330 Week 4 – Course Project
  * Description: Java application that simulates a simple PLC system.
  * DeviceModule.java
  *******************************************************************/

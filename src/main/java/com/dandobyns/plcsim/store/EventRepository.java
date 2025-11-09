@@ -3,8 +3,13 @@
  * Date: 11/9/2025
  * Assignment: SDC330 Week 4 – Course Project
  * Description: Java application that simulates a simple PLC system.
- * Application entry point.
+ * EventRepository.java - Interface for Event data access.
  *******************************************************************/
-package com.dandobyns.plcsim;
-/** Entry point for Week 3. */
-public class App { public static void main(String[] args){ new ConsoleUI().start(); } }
+package com.dandobyns.plcsim.store;
+
+import java.util.List;
+
+public interface EventRepository {
+  void append(EventRow e);
+  List<EventRow> recent(int limit);
+}
