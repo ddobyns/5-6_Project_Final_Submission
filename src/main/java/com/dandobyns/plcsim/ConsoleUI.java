@@ -44,7 +44,9 @@ public class ConsoleUI {
 
     while (true) {
       System.out.println("""
-        === CLICK PLC SIM ===
+      
+      === PLC SIMULATION CONSOLE ===  
+      === CLICK PLC SIM ===
         1) Add Digital Input
         2) Add Digital Output
         3) Add Register
